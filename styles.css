@@ -1,0 +1,44 @@
+/* Warna biru langit */
+.bg-sky {
+    background-color: #87CEFA !important;
+  }
+  
+  .section-light {
+    background-color: #f0f8ff;
+  }
+  
+  .section-white {
+    background-color: #ffffff;
+  }
+  
+  h1, h2, h4 {
+    color: #005b96;
+  }
+  
+  /* Sudut custom */
+  .rounded-custom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 0;
+  }
+  
+  /* Responsive text */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
